@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class=" max-sm:overflow-x-hidden max-sm:w-full  ">
+    <!-- home section -->
+    <section class="bg-[url('./images/BgImage.png')] bg-no-repeat bg-cover w-full h-[100vh]  max-sm:bg-center  " id="home">
+        <nav class="flex flex-row md:gap-3 justify-between">
+            <a href="#home"><h1 class="text-[35px] font-bold text-white px-5 py-2">digital</h1></a>
+            <ul class="flex flex-row gap-10 text-md font-bold text-white uppercase p-5 max-sm:hidden">
+                <li class="cursor-pointer relative group">
+                    <a href="#feature">Features</a>
+                    <div class="absolute bottom-0 w-full h-1 rounded bg-white hidden group-hover:block transition-all duration-200"></div>
+                </li>
+                <li class="cursor-pointer relative group">
+                    <a href="#about">About</a>
+                    <div class="absolute bottom-0 w-full h-1 rounded bg-white hidden group-hover:block transition-all duration-200"></div>
+                </li>
+                <li class="cursor-pointer relative group">
+                    <a href="#price">Pricing</a>
+                    <div class="absolute bottom-0 w-full h-1 rounded bg-white hidden group-hover:block transition-all duration-200"></div>
+                </li>
+                <li class="cursor-pointer relative group">
+                    <a href="#services">Services</a>
+                    <div class="absolute bottom-0 w-full h-1 rounded bg-white hidden group-hover:block transition-all duration-200"></div>
+                </li>
+                <li class="cursor-pointer relative group">
+                    <a href="#team">Team</a>
+                    <div class="absolute bottom-0 w-full h-1 rounded bg-white hidden group-hover:block transition-all duration-200"></div>
+                </li>
+                <li class="cursor-pointer relative group">
+                    <a href="#contact">Contact</a>
+                    <div class="absolute bottom-0 w-full h-1 rounded bg-white hidden group-hover:block transition-all duration-200"></div>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="flex flex-col justify-center items-center max-w-[700px] mx-auto mt-[100px] max-sm:mt-[40vh]">
+            <h1 class="font-Rampart text-[80px] font-extrabold text-white tracking-widest max-sm:text-center max-sm:text-6xl">Simply the Best</h1>
+            <h2 class="text-[20px] text-white font-bold tracking-wider pt-3">Reasons for Choosing Us</h2>
+            <p class="text-white text-md font-light text-center pt-6  max-sm:h-full">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam consectetur mollitia, 
+                cumque obcaecati doloribus at velit in sunt esse accusamus optio, earum, minima impedit 
+                saepe repellat iste maxime inventore totam!
+            </p>
+            <button class="text-black font-bold bg-white rounded-full p-2 mt-10">READ MORE</button>
+        </div>
+
+        <div class="flex flex-row gap-20 max-w-[1080px] mx-auto relative top-[150px] max-sm:mt-0 max-sm:flex-wrap max-sm:p-8">
+            <!-- card 1 -->
+            <div class="flex flex-col items-center rounded-md shadow-2xl shadow-gray-600 bg-white pb-6 hover:scale-105 transition-all duration-200 max-sm:h-[60vh]">
+                <img src="./images/Rectangle 1.png" width="310px" height="250px" class="rounded-md" alt="">
+                <h2 class="text-[22px] font-mono font-bold p-2">Best TrackRecord</h2>
+                <p class="font-light text-center px-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius unde 
+                    reprehenderit quia repudiandae suscipit error ipsam quas quos! Voluptas, ut.
+                </p><br>
+                <button class=" bg-custom-gradient text-white px-4 py-1 rounded-xl font-semibold w-fit ">READ MORE</button>
+            </div>
+            <!-- card 2 -->
+            <div class="flex flex-col items-center rounded-md shadow-2xl shadow-gray-600 bg-white hover:scale-105 transition-all duration-200 max-sm:h-[60vh]">
+                <img src="./images/Rectangle 1 copy.png" width="310px" height="250px" class="rounded-md" alt="">
+                <h2 class="text-[22px] font-mono font-bold  p-2">Trusted by leaders</h2>
+                <p class="font-light text-center px-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius unde 
+                    reprehenderit quia repudiandae suscipit error ipsam quas quos! Voluptas, ut.
+                </p><br>
+                <button class=" bg-custom-gradient text-white px-4 py-1 rounded-xl font-semibold w-fit ">READ MORE</button>
+            </div>
+            <!-- card 3 -->
+            <div class="flex flex-col items-center rounded-md shadow-2xl shadow-gray-600 bg-white hover:scale-105 transition-all duration-200 max-sm:h-[60vh]">
+                <img src="./images/Rectangle 1 copy 2.png" width="310px" height="250px" class="rounded-md" alt="">
+                <h2 class="text-[22px] font-mono font-bold p-2">Best Equity</h2>
+                <p class="font-light text-center px-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius unde 
+                    reprehenderit quia repudiandae suscipit error ipsam quas quos! Voluptas, ut.
+                </p><br>
+                <button class=" bg-custom-gradient text-white px-4 py-1 rounded-xl font-semibold w-fit ">READ MORE</button>
+            </div>
+        </div>
+        
+    </section>
+    <!-- about section -->
+    <section class="max-w-[1080px] mx-auto relative mt-[200px] flex flex-col lg:flex-row justify-center items-center max-sm:flex-wrap  max-sm:mt-[230vh] " id="about">
+        <!-- left side -->
+        <div class="w-[350px] max-sm:text-center">
+            <h1 class="font-Rampart text-[50px] font-bold">We are <br>Creative Agency</h1>
+            <p class="font-bold">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam veniam quis in fuga iste sunt expedita officia reprehenderit pariatur.
+            </p>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut incidunt, optio voluptatibus ab vero ratione nostrum, eligendi quibusdam 
+                animi impedit quo recusandae corrupti? Officiis adipisci harum repellat? Exercitationem, debitis molestiae?m
+            </p>
+            <button style="background: linear-gradient(to right, orange , blue);" 
+            class="py-2 px-3 rounded-full text-white mt-8">
+                READ MORE
+            </button>
+            
+        </div>
+
+        <!-- middle  -->
+        <div class="text-[35rem] font-bold text-transparent bg-clip-text bg-[url('./images/Layer.png')] bg-right w-[400px]">
+            A
+        </div>
+
+        <!-- right side -->
+        <div class="w-[300px]">
+            <h3 class="font-serif italic pt-16">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellendus atque illum eveniet reiciendis doloremque, 
+                dolorum natus qui. Dolorum excepturi assumenda neque distinctio, mollitia voluptatum corporis iure saepe harum magni 
+                porro voluptas est laudantium et nulla cupiditate dolorem veniam libero non eum. Consectetur nisi, nihil labore officiis 
+                earum odit optio reiciendis ea eos sunt minima?"
+            </h3>
+            <h1 class="font-Rampart text-[40px] font-extrabold text-end">Anita Allen</h1>
+        </div>
+    </section>
+
+    <!-- features section -->
+    <section class=" relative max-w-[1050px] mx-auto flex flex-col gap-6" id="feature">
+        <div class="flex flex-row flex-wrap gap-6">
+            <img src="./images/PLace your image.png" width="500rem" alt="" class="rounded-xl">
+            <img src="./images/PLace your image (1).png" width="500rem" alt="" class="rounded-xl">
+        </div>
+        <div class="lg:absolute bg-white top-[12rem] left-[15rem] w-[35rem] rounded-xl px-12 py-3 flex flex-col justify-center items-center ">
+            <h1 class="font-Courgette text-[40px] font-extrabold ">Amazing features</h1>
+            <p class="font-serif font-light text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, aut tempora assumenda, recusandae
+                quam odit sit repellendus aliquid magni nisi explicabo qui architecto placeat! Quisquam iure, vel 
+                consequuntur veritatis natus odio fugiat aliquid hic illum odit, aspernatur cumque voluptatibus quod 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <button style="background: linear-gradient(to right, orange , blue);" class="py-2 px-3 rounded-full text-white mt-2">
+                READ MORE
+            </button>
+        </div>
+        <div class="flex flex-row flex-wrap gap-6">
+            <img src="./images/PLace your image (2).png" height="400rem" width="500rem" alt="" class="rounded-xl">
+            <img src="./images/PLace your image (3).png" height="400rem" width="500rem" alt="" class="rounded-xl">
+        </div>
+        
+    </section>
+
+ <div>
+    <!-- services section -->
+    <section class="flex flex-row mt-[10rem] bg-gray-300 h-[70vh]" id="services">
+        <!-- left side -->
+        <div class="ml-[12rem] pt-16 w-[40%]">
+            <h1 class="font-Rampart text-[45px] font-extrabold">Services <br> We Provide</h1>
+            <p class="font-semibold ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Nemo quo assumenda in ipsum, cumque blanditiis.
+            </p><br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, adipisci architecto illum unde dolores
+                aliquam harum dolorum magni iste libero cupiditate temporibus voluptates at, sequi animi impedit id 
+                laborum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor saepe adipisci veritatis modi
+                recusandae aspernatur at explicabo eligendi dolorum facere.
+            </p><br>
+            <button style="background: linear-gradient(to right, orange , blue);" 
+                class="py-2 px-3 rounded-full text-white mt-2 font-bold">
+                READ MORE
+            </button>
+        </div>
+
+        <!-- right side -->
+        <div class="relative flex flex-col gap-8 ml-36 pt-14 bg-[url('./images/layer_3.png')] bg-cover bg-center w-[50%]">
+            <div style="background: linear-gradient(to right, orange , blue);" 
+                class="absolute top-[5rem] flex flex-row gap-6 items-center px-7 py-3 w-[20rem] rounded-full">
+                <img src="./images/icon1.png" alt="" width="32px" height="30px">
+                <p class="text-white font-serif">Logo & Branding</p>
+            </div>
+            <div style="background: linear-gradient(to right, orange , blue);" 
+                class="absolute top-[10rem] right-[0] flex flex-row gap-6 items-center px-7 py-3 w-[20rem] rounded-full">
+                <img src="./images/icon2.png" alt="" width="38px" height="30px">
+                <p class="text-white font-serif">Social Media Branding</p>
+            </div>
+            <div style="background: linear-gradient(to right, orange , blue);" 
+                class="absolute top-[15rem] flex flex-row gap-6 items-center px-7 py-3 w-[20rem] rounded-full">
+                <img src="./images/icon3.png" alt="" width="38px" height="30px">
+                <p class="text-white font-serif">Digital Products</p>
+            </div>
+            <div style="background: linear-gradient(to right, orange , blue);" 
+                class="absolute top-[20rem] right-[0] flex flex-row gap-6 items-center px-7 py-3 w-[20rem] rounded-full">
+                <img src="./images/icon4.png" alt="" width="38px" height="30px">
+                <p class="text-white font-serif">Stocks</p>
+            </div>
+            <div style="background: linear-gradient(to right, orange , blue);" 
+                class="absolute top-[25rem]  flex flex-row gap-6 items-center px-7 py-3 w-[20rem] rounded-full">
+                <img src="./images/icon5.png" alt="" width="30px" height="30px">
+                <p class="text-white font-serif">Mobile & Web</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- team section -->
+    <section class="relative max-w-[1080px] mx-auto pt-20 pb-32 text-center" id="team">   
+        <h1 class="font-Rampart font-extrabold text-[3rem]">We are Perfect Team</h1>
+        <br><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate impedit
+            dicta totam odio, ex porro! Quod ut expedita labore. Expedita excepturi commodi 
+            consequatur accusantium officiis doloribus quod laboriosam cumque amet? Lorem ipsum,
+            dolor sit amet consectetur adipisicing elit. Ipsum sunt a cupiditate quae odit illum 
+            itaque nihil architecto accusamus quas?</p>
+
+        <div class="flex flex-row gap-5 justify-center items-center mt-8">
+            <div class="hover:scale-110 transition-all duration-200">
+                <img src="./images/img1.png" alt="" class="rounded-xl">
+                <h3 class="font-serif font-bold text-[23px] mt-7">Jeff Norton</h3>
+                <p class="opacity-40">Graphic Designer</p>
+            </div>
+            <div class="hover:scale-110 transition-all duration-200">
+                <img src="./images/img2.png" alt="" class="rounded-xl">
+                <h3 class="font-serif font-bold text-[23px] mt-7">Anita Allen</h3>
+                <p class="opacity-40">Graphic Designer</p>
+            </div>
+            <div class="hover:scale-110 transition-all duration-200">
+                <img src="./images/img3.png" alt="" class="rounded-xl">
+                <h3 class="font-serif font-bold text-[23px] mt-7">David Carson</h3>
+                <p class="opacity-40">Graphic Designer</p>
+            </div>
+            <div class="hover:scale-110 transition-all duration-200">
+                <img src="./images/img4.png" alt="" width="280px" class="rounded-xl">
+                <h3 class="font-serif font-bold text-[23px] mt-7">Susan Kare</h3>
+                <p class="opacity-40">Graphic Designer</p>
+            </div>
+            <div class="hover:scale-110 transition-all duration-200">
+                <img src="./images/img5.png" alt="" class="rounded-xl">
+                <h3 class="font-serif font-bold text-[23px] mt-7">Paula Scher</h3>
+                <p class="opacity-40">Graphic Designer</p>
+            </div>
+        </div> 
+    </section>
+
+    <!-- intro section -->
+    <section class="flex flex-row">
+        <div class="ml-32 px-10">
+            <h1 class="font-Courgette font-bold text-[45px]">Anita Allen</h1>
+            <h3 class="font-serif font-extrabold opacity-60">Graphic Designer</h3><br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Molestias debitis amet sit doloremque nobis quia? Dignissimos 
+                illo blanditiis dolor et quisquam, repudiandae ducimus distinctio 
+                deserunt fuga consequuntur molestiae deleniti. Voluptatem eos porro 
+                est ratione molestiae quas aliquid rem voluptatibus sit dolor saepe 
+                voluptate, in minus maiores dolorem vitae sunt! Officia?
+            </p>
+
+            <div class="mt-9 pr-16 flex flex-col gap-5">
+                <div class="flex flex-col">
+                    <h1 class="font-Rampart text-[25px] font-bold">Creativity</h1>
+                    <div class="flex flex-row gap-5 items-center">
+                        <div style="background: linear-gradient(to right, orange , blue);" class="h-2 w-[70%] rounded-xl"></div>
+                        <p class="font-serif font-bold text-[15px]">80%</p>
+                    </div>
+                    <div class="bg-gray-300 w-full h-2 rounded-xl"></div>
+                </div>
+                <div class="flex flex-col">
+                    <h1 class="font-Rampart text-[25px] font-bold">Team work</h1>
+                    <div class="flex flex-row gap-5 items-center">
+                        <div style="background: linear-gradient(to right, orange , blue);" class="h-2 w-[70%] rounded-xl"></div>
+                        <p class="font-serif font-bold text-[15px]">80%</p>
+                    </div>
+                    <div class="bg-gray-300 w-full h-2 rounded-xl"></div>
+                </div>
+                <div class="flex flex-col">
+                    <h1 class="font-Rampart text-[25px] font-bold">Designing</h1>
+                    <div class="flex flex-row gap-5 items-center">
+                        <div style="background: linear-gradient(to right, orange , blue);" class="h-2 w-[70%] rounded-xl"></div>
+                        <p class="font-serif font-bold text-[15px]">80%</p>
+                    </div>
+                    <div class="bg-gray-300 w-full h-2 rounded-xl"></div>
+                </div>
+            </div>
+        </div>
+
+        <img src="./images/layer_4.png" width="500px" alt="" class="">
+
+        <div class="w-[100rem] flex flex-col justify-around p-3 bg-custom-gradient">
+            <h1 class="text-[25px] font-bold font-serif text-center">Graphic Designer</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, 
+                aut nemo voluptatum et placeat nulla delectus doloremque quasi 
+                eaque consequatur commodi cum atque dignissimos repellendus tempora 
+                qui laudantium distinctio quos odit, sed veritatis iusto? Eligendi 
+                maiores ipsa sapiente eveniet optio consectetur recusandae deserunt quas, 
+                animi harum culpa adipisci exercitationem facilis.
+            </p>
+
+            <div class="flex flex-row gap-4 items-center justify-center">
+                <a href=""><img src="./images/facebook.png" height="40px" width="30px"  alt=""></a>
+                <a href=""><img src="./images/instagram.png" height="40px" width="30px"  alt=""></a>
+                <a href=""><img src="./images/linked-in.png" height="40px" width="30px" alt=""></a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- pricing section -->
+    <section class="flex flex-row mt-[7rem] bg-gray-200" id="price">
+        <!-- left side -->
+        <div class="bg-custom-gradient w-[35%] h-[40rem] flex justify-end items-center">
+            <!-- white box -->
+            <div class="bg-white ml-[13rem] text-center px-10 py-7">
+                <h1 class="text-[35px] font-Courgette">Professional</h1>
+                <h3 class="font-bol">Website Design</h3>
+                <h1 class="text-[4rem] font-semibold">$49. <span class="text-[2rem]">99</span></h1>
+
+                <h2 class="text-[20px] font-bold font-serif">Overview</h2>
+                <p class="font-light font-serif">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nihil iusto ad 
+                    sunt maiores, fuga molestias assumenda expedita, velit tempora aliquid sit 
+                    vitae laboriosam eaque nobis ab accusamus.
+                </p>
+            </div>
+        </div>
+
+        <!-- right side -->
+
+        <div class="flex flex-row justify-between">
+
+            <!-- left side -->
+            <div class="bg-custom-gradient mt-[5.9rem] w-[21rem] h-[61vh] px-10 py-4 text-center">
+                <h1 class="font-Bolder text-[4rem] text-white">Our Best</h1>
+                <h2 class="text-white text-xl">Features</h2><br>
+                <ul class="text-white flex flex-col gap-2 font-serif">
+                    <li class="flex flex-row gap-4">
+                        <img src="./images/white-tick.png" alt="">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                    <li class="flex flex-row gap-4">
+                        <img src="./images/white-tick.png" alt="">
+                        <span>consectetur adipisicing , qui!</span>
+                    </li>
+                    <li class="flex flex-row gap-4">
+                        <img src="./images/white-tick.png" alt="">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                    <li class="flex flex-row gap-4">
+                        <img src="./images/white-tick.png" alt="">
+                        <span>Ipsum dolor sit amet, comodi. </span>
+                    </li>
+                    <li class="flex flex-row gap-4">
+                        <img src="./images/white-tick.png" alt="">
+                        <span>magna aliqua. Ut enim ad</span>
+                    </li>
+                    <li class="flex flex-row gap-4">
+                        <img src="./images/white-tick.png" alt="">
+                        <span>minim veniam, quis nostrud</span>
+                    </li>
+                </ul>
+                <button class="bg-white text-black p-2 rounded-full mt-7 font-bold">READ MORE</button>
+            </div>
+
+            <!-- right side -->
+            <div class="w-[30rem] ml-24 mt-[7rem]">
+                <h1 class="font-Rampart font-bold text-[3rem]">Take your website<br>
+                to the next level</h1>
+                
+                <p class="font-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Culpa perferendis odio qui, illum a consectetur fugiat. Veniam 
+                    libero accusamus saepe! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, cumque.
+                </p>
+                <p class="mt-8 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+                    error corporis vel corrupti at molestias eveniet possimus quo quod? 
+                    Dolores eaque consectetur perferendis, quidem sint ullam corrupti doloribus, 
+                    eveniet maiores culpa aliquam assumenda quo explicabo exercitationem voluptate 
+                    nesciunt magni incidunt!
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- get in touch section -->
+    <section class="relative" id="contact">
+        <img class="w-full h-[20rem] " src="./images/Layer_5.png" alt="Your Image">
+        <div class="absolute inset-0 bg-gradient-left-right opacity-75"></div>
+        
+        <div class="absolute top-0 ml-[25rem]">
+            <h1 class="font-Rampart font-extrabold text-[3rem] text-white mt-10 text-center">Get in Touch</h1>
+            <div class="flex flex-row gap-20 mt-20">
+                <img src="./images/level5_f.png" width="20px" class="cursor-pointer" alt="">
+                <img src="./images/level5_g+.png" height="20px" class="cursor-pointer" alt="">
+                <img src="./images/level5_vk.png" height="20px" class="cursor-pointer" alt="">
+                <img src="./images/level5_yt.png" height="20px" class="cursor-pointer" alt="">
+                <img src="./images/level5_in.png" height="20px" class="cursor-pointer" alt="">
+                <img src="./images/level5_digg.png" height="20px" class="cursor-pointer" alt="">
+                <img src="./images/level5_icon.png" height="20px" class="cursor-pointer" alt="">
+            </div>
+        </div>  
+    </section>
+    
+    <!-- footer section -->
+    <footer class="flex flex-col gap-7 mt-[4rem]">
+        <div class="flex flex-row justify-evenly">
+            <div class="flex flex-row items-center justify-center gap-4">
+                <img src="./images/mail.png" alt="" height="5px">
+                <div>
+                    <h2 class="font-bold">EMAIL</h2>
+                    <p>john@yahoo.com</p>
+                    <p>anita@yahoo.com</p>
+                </div>
+            </div>
+            <div class="flex flex-row items-center justify-center gap-4">
+                <img src="./images/phone.png" alt="" >
+                <div>
+                    <h2 class="font-bold">CALL US</h2>
+                    <p>+123 456 7890</p>
+                    <p>+987 654 3210</p>
+                </div>
+            </div>
+            <div class="flex flex-row items-center justify-center gap-4">
+                <img src="./images/address.png" alt="" >
+                <div>
+                    <h2 class="font-bold">ADDRESS</h2>
+                    <p>123, Main Road, New Delhi,</p>
+                    <p>India 106104</p>
+                </div>
+            </div>
+        </div>
+        <p class="text-center mt-[1.5rem] font-serif pb-5">Designed By Digital.com</p>
+    </footer> 
+
+</body>
+</html>
